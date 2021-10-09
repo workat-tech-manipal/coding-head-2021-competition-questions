@@ -1,0 +1,16 @@
+Aryamman is very keen to participate in a robotics competition. He was instructed to create a bot with x amount of energy. The bot is tasked to do the maximum number of tasks to gain points, and he is given the job in the form of an array arr of even length, in which arr[0],arr[1]; arr[2], arr[3] and so on form a pair, in which the first position in each pair signifies the energy required to do a task and the second signifies the points we get after doing it.
+He is required to get the maximum points such that the sum of energy needed to do all the tasks is less than or equal to x amount of energy.
+Your job is to maximise the amount of points that can be scored by him provided the energy consumed is equal to or less than x.
+Input format 
+T ---> no. of test cases
+N ---> no. of array
+Followed by n elements of array 
+X ---> amount of energy 
+
+Constraints 
+1<=T<=100;
+2<=N<=100;
+0<=X<=100
+Output Format
+Print the output corresponding to each test case on a new line.
+All
