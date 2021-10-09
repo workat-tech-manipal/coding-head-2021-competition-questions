@@ -1,0 +1,18 @@
+Q. Ayush loves strings! He is currently working with strings that only have
+x and y as characters, and he defines the beauty of a string as the 
+maximum length of the substring in the string that has equal characters;
+Ayush has the ability to change at max k characters in the string from 
+x to y, or vice-versa.
+Ayush is not the best coder, sp he needs your help in figuring out
+what is the beauty of a particular string that consists of only 
+x and y as characters.
+Can you help him figure out the beauty of each string?
+
+
+INPUT:
+n - length of the string;
+k - max switches he can make
+s - the string (only consists of x and y as characters)
+
+OUTPUT:
+The beauty of the respective string;

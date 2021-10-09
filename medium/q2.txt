@@ -1,0 +1,26 @@
+Q. Swastik is a clumsy fellow, and he tends to mess anything up
+that comes to him, be it taking an important document somewhere, 
+talking to a girl, or serving food!
+When he gives drinks out to his guests, he can three cases.
+1. He gives the equal amount to everyone. 
+2. He gives the equal amount to everyone except two, one cup usually 
+gets filled more, but the mean of the two amounts is exactly equal to
+the amount in other hostels.
+3. He messes up more than two glasses, after which it becomes hard to 
+know the two glasses which got their drinks transferred. 
+
+You are given n amount of integers, each integer representing the amount
+of drinks in each glass. You are supposed to determine which of these 
+3 cases would be holding true for the given input;
+
+INPUT
+n - The number of glasses;
+followed by n integers, the amount in each glass;
+
+OUTPUT:
+Print "All good", if it is the first case,
+"You shifted ${X} amount from glass #${g1} to glass #${g2}"
+, and "You are dead" if it is the third;
+
+where X is the amount transferred, g1 and g2 are the respective amounts in
+each glass
