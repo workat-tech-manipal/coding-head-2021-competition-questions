@@ -1,12 +1,12 @@
 Ayush, Aryamman, and Swastik, three of them are pretty fond of playing football. One day, they decide to mark n points on the ground and keep cones on them such that no two cones are adjacent.
 You are tasked to find whether they can place more cones on the field or not.
 The input is in the form of a boolean array; 1 represents the cone is placed on the point, and 0 signifies no cone has been set yet.
-You have to output one if the cone can be placed such that no cones are adjacent to each other; otherwise, 0.
+You have to output True if the cone can be placed such that no cones are adjacent to each other; otherwise, False.
 Example
 Input = [1,0,0,0,1], n = 1
-Here the cone can be placed at index two; thus, the output must be 1.
+Here the cone can be placed at index two; thus, the output must be True.
 Input = [1,0,0,0,1], n = 2
-Here no position is possible such that no two cones are adjacent to each other; thus, the output must be 1.
+Here no position is possible such that no two cones are adjacent to each other; thus, the output must be False.
 Input format 
 T ---> number of test case
 N ---> size of array
