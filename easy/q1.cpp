@@ -1,18 +1,19 @@
 #include <iostream>
 #include <math.h>
 
+using namespace std;
+
 int main()
 {
-  int t,n;
-  std::cin>>t;
+  int t, n;
+  cin >> t;
   float y;
-  do
+  while (t--)
   {
-      std::cin>>n;
-      y = ((n*n)/2);
-      std::cout<<y;
-      t--;
+    cin >> n;
+    y = ((n * n) / 2);
+    cout << y;
   }
-  while(t);
+
   return 0;
 }
