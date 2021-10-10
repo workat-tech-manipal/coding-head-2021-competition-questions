@@ -1,49 +1,42 @@
 #include <iostream>
-#include <string>
-#include <unordered_map>
-#include <vector>
+#include <cmath>
 
 using namespace std;
 
-bool solve(string &a, string &b, string &c)
-{
-    int mapping[30] = {0};
-    for (auto i : c)
-        mapping[i - 'a']++;
-    int index_a = 0, index_b = 0;
-    while (index_a < a.size())
-    {
-        if (index_b == b.size())
-            return false;
-        if (b[index_b] == a[index_a])
-        {
-            index_b++;
-            index_a++;
-            continue;
-        }
-        mapping[b[index_b++] - 'a']--;
-    }
-    while (index_b < b.size())
-        mapping[b[index_b++] - 'a']--;
-    for (int i = 0; i < 30; i++)
-    {
-        if (mapping[i] < 0)
-            return false;
-    }
-
-    return true;
-}
-
 int main()
 {
-    int tests;
-    cin >> tests;
-    while (tests--)
+
+    long long int i, j, k;
+    long long int a, b, n, c, p, count = 0;
+
+    cin >> a;
+
+    //if a is odd
+    if (a % 2 != 0)
     {
-        string a, b, c;
-        cin >> a >> b >> c;
-        cout << (solve(a, b, c) ? "Aryamann" : "Arushi") << '\n';
+        b = ((a * a) + 1) / 2;
+        c = b - 1;
+        if (b > 0 && c > 0)
+        {
+            cout << b << " " << c;
+        }
+        else
+            cout << "-1";
     }
+
+    else if (a > 2 && a % 2 == 0)
+    {
+        b = a * a;
+        b = b / 4;
+        c = b + 1;
+        b = b - 1;
+        cout << b << " " << c;
+    }
+
+    else if (a == 2)
+        cout << "-1";
+
+    return 0;
 
     return 0;
 }
