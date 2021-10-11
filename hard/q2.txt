@@ -1,8 +1,0 @@
-Aryamman and Ayush challenged Swastik in a shooting game; Swastik was provided with a number of balls 'b.' He could shoot the ball in the goal only 1 or 2 at a time. You are required to find the total number of combinations he will take to use all the 'b' balls.
-For example,
-b =4; Then, he can have five ways to do so.
-He can score two goals 2 times.
-He can score one goal 4 times.
-He can score two goals first, then one goal followed by one more goal.
-He can score one goal, followed by another goal, and then two goals.
-At last, he can score one goal, then two goals, followed by a goal.
