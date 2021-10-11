@@ -3,6 +3,10 @@ to visit all the possible islands while he can, but he does not know
 about the number of islands that there are. However, he has a rough map
 that displays the part that has land and the part that has water. 
 Can you help him determine the number of islands in the map?
+Non-diagonal adjacent points can be considered part of the 
+same island;
+eg. 10,10 and 10,9 are the same island, but 11,11
+are not the same island.
 NOTE:
     In the map, '1' would denote the part that has land, and '0'
     would denote the part that has water.
