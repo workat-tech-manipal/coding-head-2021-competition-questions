@@ -1,5 +1,6 @@
 #include<vector>
 #include<algorithm>
+#include<iostream>
 using namespace std;
 class Solution {
 public:
@@ -64,3 +65,14 @@ public:
         return a.second<b.second;
     }
 };
+int main()
+{
+    Solution s1;
+    vector<int>a = {1,2,46,7};
+    vector<int>b ={6,5,1,0};
+    a= s1.advantageCount(a,b);
+    for(int i=0;i<4;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+}
