@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
     int i = 0;
+    srand(time(0));
 	int t = (rand()%100)+1;
     cout<<t<<"\n";
 	while(i++< t) 
     {
         vector<int>v1;
         vector<int>v2;
-        //srand(time(0));
         int r = (rand() % 1000)+1;
         cout<<r<<"\n";
 		for(int j=0;j<r;j++)
