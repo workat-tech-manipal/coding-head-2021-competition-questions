@@ -20,7 +20,7 @@ int main()
         arr_size--;
     } while (arr_size);
     for (auto it =v.begin(); it != v.end(); ++it)
-        cout << ' ' << *it;
+        cout <<*it<<" ;
     cout<<"\n"<<num_cone<<"\n";
     }
 }
