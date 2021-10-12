@@ -4,9 +4,11 @@ using namespace std;
 int main()
 {
     int i=0;
-    while(i++<8)
-    {
     srand(time(0));
+    int t = (rand()%100)+1;
+    cout<<t<<"\n";
+    while(i++<t)
+    {
     int arr_size = (rand() % 20000) + 1;
     cout<<arr_size<<"\n";
     int num_cone = (rand() % arr_size) + 1;
