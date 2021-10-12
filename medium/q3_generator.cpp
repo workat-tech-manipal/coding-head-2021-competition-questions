@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     char arr[] = {'x', 'y'};
-    int len = rand() % 20 + 2;
+    int len = rand() % 50 + 2;
     cout << len << ' ';
     int k = rand() % (len/2);
     cout << k << ' ';

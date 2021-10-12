@@ -5,8 +5,9 @@ that displays the part that has land and the part that has water.
 Can you help him determine the number of islands in the map?
 Non-diagonal adjacent points can be considered part of the 
 same island;
-eg. 10,10 and 10,9 are the same island, but 11,11
-are not the same island.
+eg. 10,10 and 10,9 are the same island, but 11,11 and 10,11
+are not the same island.(only non-diagonal elements)
+
 NOTE:
     In the map, '1' would denote the part that has land, and '0'
     would denote the part that has water.
@@ -15,4 +16,10 @@ INPUT:
     n,m - the number of rows and cols;
     Followed by the respective values, only containing 
     '0' and '1'.
-    
+
+
+CONSTRAINTS:
+    3<=n,m<=52
+
+OUTPUT:
+    an integer telling the number of illands 

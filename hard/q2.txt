@@ -1,0 +1,21 @@
+During school days, Swastik was very interested in maths and always found it intriguing to make questions and solve them independently.
+He came across an interesting problem statement; he defined a function f(n) = n and decided to find the number of groups possible such that their sum is equal to n.
+For example
+f(5) = 5; 7 combinations are possible which are
+0+5
+1+4
+2+3
+1+3+1
+2+2+1
+1+2+1+1
+1+1+1+1+1
+So you are tasked to find the total number of such combinations possible f(n) = n.
+Input format 
+T ---> number of test case
+N ---> number required for function
+
+Constraints 
+1<=T<=100;
+2<=N<=6*10^4
+Output Format
+Print the output corresponding to each test case on a new line.

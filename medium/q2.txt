@@ -17,6 +17,10 @@ INPUT
 n - The number of glasses;
 followed by n integers, the amount in each glass;
 
+CONSTRAINTS
+4<=n<=100
+100<=amount<=1100
+
 OUTPUT:
 Print "All good", if it is the first case,
 "You shifted ${X} amount from glass #${g1} to glass #${g2}"

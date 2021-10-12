@@ -10,5 +10,9 @@ Help Aryamann win!
 
 INPUT
 n - integer;
+
+CONSTRAINTS
+1<=n<=1000000
+
 OUTPUT
 two integers that when used with the input form a pythagorean triplet;
