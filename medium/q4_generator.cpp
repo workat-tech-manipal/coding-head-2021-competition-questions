@@ -5,8 +5,9 @@ using namespace std;
 int main()
 {
     int i = 0;
-	
-	while(i++< 8) 
+	int t = (rand()%100)+1;
+    cout<<t<<"\n";
+	while(i++< t) 
     {
         vector<int>v1;
         vector<int>v2;
