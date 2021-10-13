@@ -17,4 +17,4 @@ Constraints
 
 
 Output Format
-Print the output corresponding to each test case on a new line.
+Print the output corresponding to each test case on a new line and returns the answer % 10^9+7.
