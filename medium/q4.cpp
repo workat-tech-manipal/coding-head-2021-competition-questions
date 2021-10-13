@@ -67,12 +67,33 @@ public:
 };
 int main()
 {
+    int test_case;
+   cin>>test_case;
+   while (test_case--)
+   {
+
     Solution s1;
-    vector<int>a = {1,2,46,7};
-    vector<int>b ={6,5,1,0};
+    vector<int>a;
+    vector<int>b;
+    int arr_size;
+    cin>>arr_size;
+    int ele;
+    for(int i=0;i<arr_size;i++)
+    {
+        cin>>ele;
+        a.push_back(ele);
+    }
+    for(int i=0;i<arr_size;i++)
+    {
+        cin>>ele;
+        b.push_back(ele);
+    }
     a= s1.advantageCount(a,b);
-    for(int i=0;i<4;i++)
+    for(int i=0;i<a.size();i++)
     {
         cout<<a[i]<<" ";
     }
+    cout<<"\n";
+   }
+    
 }
