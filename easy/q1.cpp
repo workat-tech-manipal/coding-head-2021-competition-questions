@@ -5,14 +5,15 @@ using namespace std;
 
 int main()
 {
-  int t, n;
+  double n;
+  int t;
   cin >> t;
   float y;
   while (t--)
   {
-    cin >> n;
-    y = ((n * n) / 2);
-    cout << y;
+      cin>>n;
+    y= ((n * n) / 2);
+    cout<<ceil(y)<<"\n";
   }
 
   return 0;
