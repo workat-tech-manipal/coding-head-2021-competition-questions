@@ -9,9 +9,11 @@ If a triplet cannot be formed, then Aryamann gives -1 as the answer.
 Help Aryamann win!
 
 INPUT
+t - number of test cases, followed by n integers;
 n - integer;
 
 CONSTRAINTS
+1<=t<=101
 1<=n<=1000000
 
 OUTPUT

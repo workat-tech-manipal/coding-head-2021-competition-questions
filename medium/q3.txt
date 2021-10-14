@@ -10,11 +10,13 @@ Can you help him figure out the beauty of each string?
 
 
 INPUT:
+t - number of tests;
 n - length of the string;
 k - max switches he can make
 s - the string (only consists of x and y as characters)
 
 CONSTRAINTS:
+    1<=t<=101
     2<=n<=51
     0<=k<=n/2
     s(only 'x' and 'y' as characters)
