@@ -19,7 +19,7 @@ INPUT:
 
 
 CONSTRAINTS:
-    3<=n,m<=52
+    3<=n,m<=12
 
 OUTPUT:
     an integer telling the number of illands 

@@ -8,7 +8,7 @@ int main()
 {
     int tests;
     cin >> tests;
-    while (tests)
+    while (tests--)
     {
         int n, k;
         string s;

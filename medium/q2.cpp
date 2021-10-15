@@ -20,7 +20,7 @@ int main()
         sort(v.begin(), v.end());
         if (v[0].first == v[n - 1].first)
             cout << "All good";
-        else if ((v[0].first + v[n - 1].first) % 2 || n > 2 && (v[1].first != v[n - 2].first || v[1].first != (v[0].first + v[n - 1].first) / 2))
+        else if ((v[0].first + v[n - 1].first)%2 || n > 2 && (v[1].first != v[n - 2].first || v[1].first != (v[0].first + v[n - 1].first)/2))
             cout << "You are dead";
         else
             cout << "You shifted " << (v[n - 1].first - v[0].first) / 2 << " amount from glass #" << v[0].second + 1 << " to glass #" << v[n - 1].second + 1 << ".";

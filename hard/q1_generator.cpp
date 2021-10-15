@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
     srand(time(0));
-    int rows = rand() % 50 + 3;
-    int cols = rand() % 50 + 3;
+    int rows = rand() % 10 + 3;
+    int cols = rand() % 10 + 3;
     cout << rows << ' ' << cols << '\n';
     for (int i = 0; i < rows; i++)
     {
