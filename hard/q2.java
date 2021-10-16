@@ -1,35 +1,22 @@
 import java.util.*;
 
-class SolutionQ2 {
+interface EulerSolution {
+  public String run();
+}
+
+final class p028 implements EulerSolution {
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    System.out.println(new p028().run());
+  }
 
-    int tests = sc.nextInt();
-    while (tests > 0) {
-      ArrayList<Long> partitions = new ArrayList<>();
-      partitions.add(1l);
-      long modulo = 1000000007;
-      tests--;
-      int limit = sc.nextInt();
-      for (int n = partitions.size(); n <= limit; n++) {
-        long sum = 0;
+  private static final int SIZE = 1001; // Must be odd
 
-        for (int i = 0;; i++) { // abort inside loop
-          int alternate = 1 + (i / 2);
-          if (i % 2 == 1) alternate = -alternate;
-          int offset = alternate * (3 * alternate - 1) / 2;
-          if (n < offset) break;
-          if (i % 4 < 2) sum += partitions.get(n - offset); else sum -=
-            partitions.get(n - offset);
-          sum %= modulo;
-        }
-        if (sum < 0) sum += modulo;
+  public String run() {
+    long sum = 1; // Special case for size 1
 
-        partitions.add(sum);
-      }
+    for (int n = 3; n <= SIZE; n += 2) sum += 4 * n * n - 6 * (n - 1);
 
-      System.out.println(partitions.get(limit));
-    }
+    return Long.toString(sum);
   }
 }
