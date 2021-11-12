@@ -1,4 +1,8 @@
 import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+import java.util.*;
 
 class Pair implements Comparable<Pair> {
   public int first;
@@ -25,7 +29,7 @@ class Pair implements Comparable<Pair> {
   }
 }
 
-class SolutionQ2 {
+class WorkAtTech {
 
   public static void main(String[] args) {
     Scanner src = new Scanner(System.in);
@@ -42,7 +46,7 @@ class SolutionQ2 {
       }
       Collections.sort(l);
       if (l.get(0).first == l.get(n - 1).first) {
-        System.out.println("All good");
+        System.out.println("You messed up completely.");
       } else if (
         ((l.get(0).first + l.get(n - 1).first) % 2 == 1) ||
         (
