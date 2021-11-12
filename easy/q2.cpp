@@ -30,7 +30,15 @@ int main(){
        }
        int cones;
        std::cin>>cones;
-   std::cout << bool(ob.canPlacecones(v, cones));
+	   if(bool(ob.canPlacecones(v, cones)))
+	   {
+		   std::cout<<"True"<<"\n";
+	   }
+	   else
+	   {
+		   std::cout<<"False"<<"\n";
+	   }
+   
    }
    
    
